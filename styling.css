@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(220, 220, 220, .9);
+}
+
+/*this is the header/background image styling*/
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('banner-pics.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    -webkit-background-size: cover;
+    width: 100%;
+}
+
+.bck-text h3 {
+    text-align: center;
+}
+
+header {}
+
+/*nav bar styling*/
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    justify-content: space-between;
+    background-color: #252625;
+    height: 50px;
+    align-items: center;
+
+
+}
+
+
+.nav-list ul {
+    display: flex;
+}
+
+.nav-list li {
+    list-style-type: none;
+    padding-right: 15px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*nav bar styling ends here*/
+
+/* 1st section styling*/
+.section-1 {
+    background-color: white;
+    max-width: 90%;
+    margin: auto;
+}
+
+section h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+/* 1st section styling ends here*/
+
+/* this is about me styling*/
+.about-me {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.credentials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.ms-word {
+    list-style-type: none;
+    font-weight: normal;
+}
+
+/* about me styling ends here */
+
+/* my services styling starts*/
+article h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 20px;
+
+}
+
+.card-service {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+}
+
+.card-service i {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-service i:hover {
+    color: green;
+}
+
+.card-service h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+
+.card-service p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    border: 1px solid gray;
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.col-1:hover {
+    box-shadow: 9px 9px 9px rgba(220, 220, 220, .9);
+    border: 3px solid green;
+}
+
+.col-2:hover {
+    box-shadow: 9px 9px 9px rgba(220, 220, 220, .9);
+    border: 3px solid green;
+}
+
+.col-3:hover {
+    box-shadow: 9px 9px 9px rgba(220, 220, 220, .9);
+    border: 3px solid green;
+}
+
+.card-service2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+}
+
+.card-service2 i {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-service2 i:hover {
+    color: green;
+}
+
+.card-service2 h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+
+.card-service2 p {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+    border: 1px solid gray;
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.row-1:hover {
+    box-shadow: 9px 9px 9px rgba(220, 220, 220, .9);
+    border: 3px solid green;
+}
+
+.row-2:hover {
+    box-shadow: 9px 9px 9px rgba(220, 220, 220, .9);
+    border: 3px solid green;
+}
+
+.row-3:hover {
+    box-shadow: 9px 9px 9px rgba(220, 220, 220, .9);
+    border: 3px solid green;
+}
+
+/* Services styling ends */
+
+/*my portfolio project styling starts here */
+section h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: normal;
+
+
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.marjay,
+.apple,
+.rise {
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    line-height: 23px;
+}
+
+.rise:hover {
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, .5);
+    transform: scale(1.1);
+    z-index: 2;
+    border: 2px solid green;
+}
+
+.apple:hover {
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, .5);
+    transform: scale(1.1);
+    z-index: 2;
+    border: 2px solid green;
+}
+
+.marjay:hover {
+    box-shadow: 9px 9px 9px rgba(0, 0, 0, .5);
+    transform: scale(1.1);
+    z-index: 2;
+    border: 2px solid green;
+}
+
+input[type="button"] {
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgba(0, 128, 0, .7);
+    border-radius: 7px;
+}
+
+/*my portfolio project styling ends here */
+
+/* footer styling starts here*/
+footer {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 80%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+footer h2 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+input[type="text"] {
+    height: 30px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 300px;
+}
+
+input[type="email"] {
+    width: 300px;
+    height: 30px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.icons h4 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 40px;
+}
+
+.icons i {
+    color: green;
+}
+
+.social-handles i {
+    margin-top: 10px;
+    padding-right: 15px;
+}
+
+form input[type="button"] {
+    width: 100px;
+    height: 35px;
+    background-color: green;
+    margin-bottom: 50px;
+}
+
+/* footer styling ends here */
